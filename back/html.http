@@ -1,0 +1,12 @@
+POST http://localhost:3000/cdz/new HTTP/1.1
+content-type: application/json 
+
+ {
+  "prenom": "Seiya",
+  "nom": "seiya",
+  "armure": "pegase",
+  "technique":"pegasus ryu seiken"
+  }
+######
+
+GET http://localhost:3000/cdz/
